@@ -23,7 +23,10 @@ export default class Digit extends React.Component {
       if (this.props.value < 10 && this.props.value >= 0) {
           return "0" + this.props.value;
       };
-      if (this.props.value < 0) {
+      if (this.props.value < 0 && this.props.value > -10) {
+          return "0" + (-1 * this.props.value);
+      };
+      if (this.props.value <= -10) {
           return "" + (-1 * this.props.value);
       };
       return this.props.value;

@@ -1,0 +1,7 @@
+#root {
+  height: 100%;
+}
+
+body .github-fork-ribbon:before {
+  background-color: #333;
+}

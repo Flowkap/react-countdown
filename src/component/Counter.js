@@ -24,12 +24,10 @@ export default class Counter extends React.Component {
   }
 
   calculate() {
-    var now = new Date();
-    var duration = Math.floor((this.props.value.getTime() - now.getTime()) / 1000);
+    const now = new Date();
+    const duration = Math.floor((this.props.value.getTime() - now.getTime()) / 1000);
 
-    console.log(duration);
-
-    var seconds = parseInt((duration) % 60),
+    const seconds = parseInt((duration) % 60),
       minutes = parseInt((duration / 60) % 60),
       hours = parseInt((duration / 3600) % 24),
       days = parseInt((duration / (3600 * 24)) % 7),

@@ -24,7 +24,6 @@ export default class App extends React.Component {
     const date = urlParams.get('date');
     if (date) {
       this.date = new Date(date);
-      console.log(date);
     }
   }
 }

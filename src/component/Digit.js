@@ -24,7 +24,7 @@ export default class Digit extends React.Component {
           return "0" + this.props.value;
       };
       if (this.props.value < 0) {
-          return -1 * this.props;
+          return "" + (-1 * this.props.value);
       };
       return this.props.value;
   }

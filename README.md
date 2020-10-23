@@ -13,8 +13,13 @@ npm start
 Pass any ISO formatted date via
 
 ```
-http://localhost:3000/?date=2020-12-01T:00:00.000Z
+http://localhost:3000/?date=2020-12-01T00:00:00.000Z
 ```
+
+Demo
+---
+
+Demo under https://flowkap.github.io/react-countdown/
 
 Attribution
 ---

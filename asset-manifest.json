@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-countdown/static/css/main.a7cc164b.chunk.css",
-    "main.js": "/react-countdown/static/js/main.d95ebb1b.chunk.js",
-    "main.js.map": "/react-countdown/static/js/main.d95ebb1b.chunk.js.map",
+    "main.css": "/react-countdown/static/css/main.7ab88e63.chunk.css",
+    "main.js": "/react-countdown/static/js/main.216f25d5.chunk.js",
+    "main.js.map": "/react-countdown/static/js/main.216f25d5.chunk.js.map",
     "runtime-main.js": "/react-countdown/static/js/runtime-main.54d607c6.js",
     "runtime-main.js.map": "/react-countdown/static/js/runtime-main.54d607c6.js.map",
-    "static/css/2.5861e1ce.chunk.css": "/react-countdown/static/css/2.5861e1ce.chunk.css",
-    "static/js/2.a28fb725.chunk.js": "/react-countdown/static/js/2.a28fb725.chunk.js",
-    "static/js/2.a28fb725.chunk.js.map": "/react-countdown/static/js/2.a28fb725.chunk.js.map",
+    "static/css/2.35545b7e.chunk.css": "/react-countdown/static/css/2.35545b7e.chunk.css",
+    "static/js/2.025a650d.chunk.js": "/react-countdown/static/js/2.025a650d.chunk.js",
+    "static/js/2.025a650d.chunk.js.map": "/react-countdown/static/js/2.025a650d.chunk.js.map",
     "index.html": "/react-countdown/index.html",
-    "precache-manifest.04e5aa77f4ded50e853d26dff874ec92.js": "/react-countdown/precache-manifest.04e5aa77f4ded50e853d26dff874ec92.js",
+    "precache-manifest.eb06d19a8cf0175517897f6fc7673373.js": "/react-countdown/precache-manifest.eb06d19a8cf0175517897f6fc7673373.js",
     "service-worker.js": "/react-countdown/service-worker.js",
-    "static/css/2.5861e1ce.chunk.css.map": "/react-countdown/static/css/2.5861e1ce.chunk.css.map",
-    "static/css/main.a7cc164b.chunk.css.map": "/react-countdown/static/css/main.a7cc164b.chunk.css.map",
-    "static/js/2.a28fb725.chunk.js.LICENSE.txt": "/react-countdown/static/js/2.a28fb725.chunk.js.LICENSE.txt"
+    "static/css/2.35545b7e.chunk.css.map": "/react-countdown/static/css/2.35545b7e.chunk.css.map",
+    "static/css/main.7ab88e63.chunk.css.map": "/react-countdown/static/css/main.7ab88e63.chunk.css.map",
+    "static/js/2.025a650d.chunk.js.LICENSE.txt": "/react-countdown/static/js/2.025a650d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.54d607c6.js",
-    "static/css/2.5861e1ce.chunk.css",
-    "static/js/2.a28fb725.chunk.js",
-    "static/css/main.a7cc164b.chunk.css",
-    "static/js/main.d95ebb1b.chunk.js"
+    "static/css/2.35545b7e.chunk.css",
+    "static/js/2.025a650d.chunk.js",
+    "static/css/main.7ab88e63.chunk.css",
+    "static/js/main.216f25d5.chunk.js"
   ]
 }

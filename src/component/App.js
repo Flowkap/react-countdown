@@ -63,13 +63,11 @@ export default class App extends React.Component {
   }
 
   onChange(date) {
-    this.setState({
-      targetDate: date
-    });
     if (window.history.pushState) {
       const newURL = new URL(window.location.href);
       newURL.search = `date=${date.toISOString()}`;
       window.history.pushState({ path: newURL.href }, '', newURL.href);
     }
+    this.readData();
   }
 }

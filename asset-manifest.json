@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-countdown/static/css/main.4d7de1c8.chunk.css",
-    "main.js": "/react-countdown/static/js/main.bb564f68.chunk.js",
-    "main.js.map": "/react-countdown/static/js/main.bb564f68.chunk.js.map",
+    "main.js": "/react-countdown/static/js/main.ae617f07.chunk.js",
+    "main.js.map": "/react-countdown/static/js/main.ae617f07.chunk.js.map",
     "runtime-main.js": "/react-countdown/static/js/runtime-main.54d607c6.js",
     "runtime-main.js.map": "/react-countdown/static/js/runtime-main.54d607c6.js.map",
     "static/css/2.35545b7e.chunk.css": "/react-countdown/static/css/2.35545b7e.chunk.css",
     "static/js/2.55e26fbd.chunk.js": "/react-countdown/static/js/2.55e26fbd.chunk.js",
     "static/js/2.55e26fbd.chunk.js.map": "/react-countdown/static/js/2.55e26fbd.chunk.js.map",
     "index.html": "/react-countdown/index.html",
-    "precache-manifest.5a0ca8599885db67a87afcaeda551c27.js": "/react-countdown/precache-manifest.5a0ca8599885db67a87afcaeda551c27.js",
+    "precache-manifest.b09a92dc73a51b243173e8e567f78fe3.js": "/react-countdown/precache-manifest.b09a92dc73a51b243173e8e567f78fe3.js",
     "service-worker.js": "/react-countdown/service-worker.js",
     "static/css/2.35545b7e.chunk.css.map": "/react-countdown/static/css/2.35545b7e.chunk.css.map",
     "static/css/main.4d7de1c8.chunk.css.map": "/react-countdown/static/css/main.4d7de1c8.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.35545b7e.chunk.css",
     "static/js/2.55e26fbd.chunk.js",
     "static/css/main.4d7de1c8.chunk.css",
-    "static/js/main.bb564f68.chunk.js"
+    "static/js/main.ae617f07.chunk.js"
   ]
 }

@@ -5,6 +5,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 import { getNextDayOfWeek, WeekDays } from "../logic/dates.js"
 import Counter from "./Counter";
+import Thought from "./Thought";
 import "./App.css";
 
 export default class App extends React.Component {
@@ -13,6 +14,7 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       targetDate: new Date(),
+      text: "",
     }
   }
 
@@ -35,8 +37,8 @@ export default class App extends React.Component {
         </div>
         <div className="center">
           <div className="content">
-            <img src={process.env.PUBLIC_URL + "/me.png"} alt="Flowkap" /><br />
-            {/* <div>{this.state.targetDate.toISOString()}</div> */}
+            <Thought text={this.state.text} />
+            <img src={process.env.PUBLIC_URL + "/me.png"} alt="Flowkap" />
             <Counter targetDate={this.state.targetDate} />
           </div>
         </div>
@@ -47,11 +49,16 @@ export default class App extends React.Component {
   readData() {
     const urlParams = new URLSearchParams(window.location.search);
     let date = urlParams.get('date');
+    let text = urlParams.get('text');
     if (!date) {
       date = getNextDayOfWeek(new Date(), WeekDays.FRI, 17);
+      if (!text) {
+        text = "When's it again Friday?";
+      }
     }
     this.setState({
-      targetDate: new Date(date)
+      targetDate: new Date(date),
+      text: text,
     });
   }
 

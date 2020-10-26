@@ -6,8 +6,16 @@ import "./Counter.css";
 
 export default class Counter extends React.Component {
   static propTypes = {
-    value: PropTypes.instanceOf(Date),
+    targetDate: PropTypes.instanceOf(Date),
   };
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      date: new Date(),
+    }
+  }
+
 
   render() {
     const calculated = this.calculate();
@@ -24,8 +32,7 @@ export default class Counter extends React.Component {
   }
 
   calculate() {
-    const now = new Date();
-    const duration = Math.floor((this.props.value.getTime() - now.getTime()) / 1000);
+    const duration = Math.floor((this.props.targetDate.getTime() - this.state.date.getTime()) / 1000);
 
     const seconds = parseInt((duration) % 60),
       minutes = parseInt((duration / 60) % 60),
@@ -42,8 +49,14 @@ export default class Counter extends React.Component {
     }
   }
 
+  tick() {
+    this.setState({
+      date: new Date()
+    });
+  }
+
   componentDidMount() {
-    this.interval = setInterval(() => this.forceUpdate(), 1000);
+    this.interval = setInterval(() => this.tick(), 1000);
   }
 
   componentWillUnmount() {

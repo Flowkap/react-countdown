@@ -2,6 +2,7 @@ html,
 body,
 .container,
 .content {
+    font-family: sans-serif;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -11,12 +12,48 @@ body,
 .container {
     display: table;
     background-color: rgb(14, 14, 41);
+    color: darkgray;
+    text-align: center;
+}
+
+.center, .header {
+    display: table-row;
 }
 
 .content {
     display: table-cell;
-    text-align: center;
     vertical-align: middle;
+}
+
+.header .react-datepicker-wrapper input {
+    font-weight: b;
+    background: rgba(40, 50, 61, .62);
     color: darkgray;
-    font-family: sans-serif;
+    border: 0px solid;
+    text-align: center;
+    font-size: large;
+    height: 25px;
+    border-bottom-left-radius: 25px 25px;
+    border-bottom-right-radius: 25px 25px;
+}
+
+.react-datepicker__triangle {
+    border-bottom-color: rgba(40, 50, 61, .62);
+}
+
+.react-datepicker,
+.react-datepicker__day,
+.react-datepicker__day-name,
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker__time-container,
+.react-datepicker__time-container .react-datepicker__time,
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box,
+.react-datepicker__time-list,
+.react-datepicker__header {
+    background: rgba(40, 50, 61, .62);
+    color: darkgray;
+    border: 0px solid;
+    border-radius: 0;
+    border-bottom-right-radius: 0;
 }
